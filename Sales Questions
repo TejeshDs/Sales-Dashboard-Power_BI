@@ -1,0 +1,21 @@
+
+Questions :
+
+
+1) sales by product comparing with last year's sales
+
+2) sales by month comparing with last year's sales
+
+3) profit by channel comparing with last year's profit
+
+4) cities with top 5 sales
+
+5) sales by customers comparing with last year's sales
+
+6) show total sales, profit, profit margin, and product sold with respect to the product, channel, city and date.
+
+7) create new date table
+
+8) create required colummns in the date table by using DAX functions
+
+9) create measures for sales,profit,cost,profit margin and any other if required.
