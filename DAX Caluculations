@@ -5,9 +5,9 @@ used dax functions to calculate new tables,new colummns and new measures
 
 created a new date table by using dax function:
 
-DAX--->
+    DAX--->
 
-       date = CALENDARAUTO()
+               date = CALENDARAUTO()
 
 In the date table created new colummns :
 
@@ -25,12 +25,11 @@ In the date table created new colummns :
                 year name = FORMAT('date'[Date],"yyyy")
 
 
-
 created new measures to display cards :
 
-DAX---> 
-        sum of sales = SUM('Sales Orders'[sales]) sum of profit = SUM('Sales Orders'[profit]) 
-        sum of order = SUM('Sales Orders'[Order Quantity]) 
-        previous year profit = CALCULATE(SUM('Sales Orders'[profit]),SAMEPERIODLASTYEAR('date'[Date]))
-        previous year sales = CALCULATE(SUM('Sales Orders'[sales]),SAMEPERIODLASTYEAR('date'[Date])) 
-        net profit margin = DIVIDE('Sales Orders'[sum of profit],'Sales Orders'[sum of sales]).
+  DAX---> 
+             sum of sales = SUM('Sales Orders'[sales]) sum of profit = SUM('Sales Orders'[profit]) 
+             sum of order = SUM('Sales Orders'[Order Quantity]) 
+             previous year profit = CALCULATE(SUM('Sales Orders'[profit]),SAMEPERIODLASTYEAR('date'[Date]))
+             previous year sales = CALCULATE(SUM('Sales Orders'[sales]),SAMEPERIODLASTYEAR('date'[Date])) 
+             net profit margin = DIVIDE('Sales Orders'[sum of profit],'Sales Orders'[sum of sales]).
