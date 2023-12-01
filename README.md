@@ -58,7 +58,7 @@ data visualization - Power BI
  
    sales= sum of sales
    
-   cost sum of costs
+   cost = sum of costs
    
    profit = sales-cost
    
