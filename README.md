@@ -98,6 +98,8 @@ created new colummns :
                     year name = FORMAT('date'[Date],"yyyy")
 created new measures to display cards :
 
+
+
 DAX--->
          sum of sales = SUM('Sales Orders'[sales])
          sum of profit = SUM('Sales Orders'[profit])
