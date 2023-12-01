@@ -10,7 +10,9 @@ its aims to provide clear understanding of key performance and trends using Powe
 
 SALES DASHBOARD - POWER BI
 
-Screenshotss
+
+![Sales Dashboard pic](https://github.com/TejeshDs/Power_BI/assets/151847161/136712a4-035b-48ab-afd1-4c5d55e090f7)
+
 
 TOOLS USED
 
