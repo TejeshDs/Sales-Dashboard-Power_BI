@@ -57,9 +57,13 @@ data visualization - Power BI
  **calculations**
  
    sales= sum of sales
+   
    cost sum of costs
+   
    profit = sales-cost
+   
    profit margin % = (net profit/net sales)*100
+   
 
    
 **conclusion on sales**
