@@ -4,12 +4,14 @@
 
 **Sales Dashboard**
 
+
+**Objective**
+
 The objective of report is to analyze and present comprehensive insights into sales, profits, orders, profit margin and other comparision in the sales data.
 
 its aims to provide clear understanding of key performance and trends using Power BI
 
-SALES DASHBOARD - POWER BI
-
+**SALES DASHBOARD - POWER BI**
 
 ![Sales Dashboard pic](https://github.com/TejeshDs/Power_BI/assets/151847161/136712a4-035b-48ab-afd1-4c5d55e090f7)
 
