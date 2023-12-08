@@ -2,21 +2,19 @@
 
 
 
-**Sales Dashboard**
 
-
-**Objective**
+# **Objective**
 
 The objective of report is to analyze and present comprehensive insights into sales, profits, orders, profit margin and other comparision in the sales data.
 
 its aims to provide clear understanding of key performance and trends using Power BI
 
-**SALES DASHBOARD - POWER BI**
+# **SALES DASHBOARD - POWER BI**
 
 ![Sales Dashboard pic](https://github.com/TejeshDs/Power_BI/assets/151847161/136712a4-035b-48ab-afd1-4c5d55e090f7)
 
-
-**TOOLS USED**
+#
+# **TOOLS USED**
 
 Data- Sales data from Excel
 
@@ -68,17 +66,9 @@ data visualization - Power BI
    
 
    
-**conclusion on sales**
 
-total sales is ₹ 155M, profit is ₹ 58 M, product sold is 68k
 
-Profit margin is higher in the export channel in 2019
-
-sales decreased is more than 5%
-
-top 5 cities by sales are Christchurch, Hamilton, Waitakere, Manukau, Napier
-
-**Questions**
+# **Questions**
 
 sales by product comparing with last year's sales
 
@@ -100,36 +90,5 @@ create measures for sales,profit,cost,profit margin and any other if required.
 
 
 
-**DAX functions**
 
-used dax functions to calculate new tables,new colummns and new measures
 
-created a new date table by using dax function:
-
-DAX--->
-
-    date = CALENDARAUTO()
-In the date table
-created new colummns :
-
-       DAX--->
-                    date full name = FORMAT('date'[Date],"dd-mmmm-yyyy")
-                    date name = FORMAT('date'[Date],"dd-mmm-yyyy")
-                    date_ = FORMAT('date'[Date],"dddd")
-                    month = FORMAT('date'[Date],"mm")
-                    month name = FORMAT('date'[Date],"mmmm")
-                    monthyear = FORMAT('date'[Date],"yyyymm")
-                    month with year = FORMAT('date'[Date],"mmm-yy")
-                    quarter = FORMAT('date'[Date],"q")
-                    short year = FORMAT('date'[Date],"yy")
-                    year = FORMAT('date'[Date],"YY")
-                    year name = FORMAT('date'[Date],"yyyy")                    
-created new measures to display cards :
-
-      DAX--->
-                 sum of sales = SUM('Sales Orders'[sales])
-                 sum of profit = SUM('Sales Orders'[profit])
-                 sum of order = SUM('Sales Orders'[Order Quantity])
-                 previous year profit = CALCULATE(SUM('Sales Orders'[profit]),SAMEPERIODLASTYEAR('date'[Date]))
-                 previous year sales = CALCULATE(SUM('Sales Orders'[sales]),SAMEPERIODLASTYEAR('date'[Date]))
-                 net profit margin = DIVIDE('Sales Orders'[sum of profit],'Sales Orders'[sum of sales]).
